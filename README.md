@@ -1,6 +1,7 @@
 # SQL Data Projects & Fundamentals 
 
 This repository contains my SQL learning journey, including foundational exercises and real-world data projects.
+This project demonstrates my ability to clean and prepare real-world datasets using SQL for analysis.
 
 ## Projects
 
