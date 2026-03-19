@@ -1,4 +1,4 @@
-# SQL Fundamentals & Data Projects
+# SQL Data Projects & Fundamentals 
 
 This repository contains my SQL learning journey, including foundational exercises and real-world data projects.
 
