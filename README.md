@@ -1,157 +1,123 @@
-# 📊 Home Credit Default Risk — SQL & Power BI Analysis Project
+# SQL Data Analytics Portfolio
 
-## 👩🏽‍💻 Author
+This repository contains SQL projects that demonstrate my ability to explore, clean, filter, and analyze real-world datasets using SQL.
 
-Bulelwa Bisholo  
-GitHub: https://github.com/BulelwaBisholo/data-analytics-sql-projects
+The projects showcase essential data analyst skills including:
 
----
-
-## 📌 Project Overview
-
-*This project demonstrates how SQL and Power BI can be used to analyze credit risk patterns and simulate lending decisions using a rule-based scoring approach.*
-
-The goal is to simulate a basic **credit risk analysis workflow** by:
-
-- Understanding client demographics and financial behavior
-- Identifying risk patterns linked to default status
-- Building a simple rule-based credit risk scoring model
-- Visualizing key insights in an interactive Power BI dashboard
+- Data exploration
+- Data cleaning
+- Filtering and querying data
+- Exploratory Data Analysis (EDA)
+- Business insight generation
 
 ---
 
-## 🎯 Problem Statement
+## Project Files
 
-Financial institutions need to assess whether a client is likely to default on a loan.  
-This project explores:
+### 01_Employee_Data_Exploration.sql
 
-- Who is most likely to default?
-- What financial and demographic factors influence default risk?
-- Can we simulate a simple credit risk decision system using SQL?
+Explores an employee dataset using SQL queries.
+
+Topics covered:
+- SELECT statements
+- Aggregate functions
+- GROUP BY
+- ORDER BY
+- COUNT, SUM, AVG
+- MIN and MAX
+- Business insights from employee data
 
 ---
 
-## 🛠 Tools Used
+### 02_Filtering_Data_with_WHERE.sql
+
+Demonstrates how to retrieve specific records using filtering techniques.
+
+Skills demonstrated:
+- WHERE clause
+- AND / OR
+- IN
+- BETWEEN
+- LIKE
+- IS NULL
+- Comparison operators
+
+---
+
+### 03_global_layoffs_data_cleaning.sql
+
+Cleans a real-world layoffs dataset.
+
+Cleaning techniques include:
+- Removing duplicates
+- Handling NULL values
+- Standardizing text values
+- Formatting dates
+- Preparing data for analysis
+
+---
+
+### 04_global_layoffs_eda.sql
+
+Performs Exploratory Data Analysis on the cleaned layoffs dataset.
+
+Analysis includes:
+- Total layoffs
+- Layoffs by company
+- Layoffs by country
+- Layoffs by industry
+- Layoffs over time
+- Ranking companies with window functions
+- Identifying business trends
+
+---
+
+## Skills Demonstrated
+
+- SQL
+- Data Cleaning
+- Data Exploration
+- Exploratory Data Analysis (EDA)
+- Aggregate Functions
+- Window Functions
+- Common Table Expressions (CTEs)
+- Joins
+- Filtering
+- Data Transformation
+- Business Analysis
+
+---
+
+## Tools Used
 
 - MySQL Workbench
-- Power BI Service (browser-based)
-- SQL (Joins, CASE statements, Aggregations, CTEs, Window Functions)
-- Kaggle Dataset: Home Credit Default Risk
 
 ---
 
-## 📂 Dataset
+## Dataset
 
-The dataset contains client-level financial and demographic information such as:
-
-- Income
-- Loan amount
-- Age
-- Occupation type
-- Loan repayment status (TARGET variable)
+The layoffs project uses a publicly available layoffs dataset containing company workforce reduction information from various industries.
 
 ---
 
-## 🔍 Key Analysis Performed
+## About Me
 
-### 1. Data Exploration
-- Checked dataset size and structure
-- Identified key variables for analysis
+I am an aspiring Data Analyst with a background in customer relationship management and business administration. I am transitioning into data analytics through hands-on projects focused on SQL, Excel, Python, and Power BI.
 
-### 2. Data Quality Checks
-- Checked missing values in financial fields
-- Flagged DAYS_EMPLOYED anomaly (suspicious positive values)
+### Connect with me
 
-### 3. Default Risk Analysis
-- Distribution of default vs non-default clients
-- Default rate across different segments
-
-### 4. Customer Segmentation
-- Income-based groups
-- Debt-to-income groups
-- Age group and gender analysis
-- Occupation type analysis
-
-### 5. Financial Behaviour Insights
-- Comparison of income, credit, and annuity between defaulters and non-defaulters
-- Credit-to-income ratio analysis
+- **LinkedIn:** www.linkedin.com/in/bulelwabisholo
+- **GitHub:** https://github.com/BulelwaBisholo
 
 ---
 
-## 📊 Power BI Dashboard
+## Future Improvements
 
-An interactive dashboard was built in Power BI Service to visualize key findings:
-
-![Home Credit Default Risk Dashboard](Power-BI-Dashboard/Home-Credit-Dashboard.png)
-
-**Visuals included:**
-- 🍩 Default Rate overview (Donut Chart)
-- 📊 Default Rate by Income Group
-- 📊 Default Rate by Debt-to-Income Group
-- 📊 Default Rate by Age Group and Gender
-- 📊 Default Rate by Occupation Type
+- Add advanced SQL projects
+- Create interactive Power BI dashboards
+- Add Python data analysis projects
+- Build end-to-end analytics case studies
 
 ---
 
-## 📊 Key Insights
-
-- **91.91%** of clients are non-defaulters; **8.09%** default rate overall
-- **Young male clients (Under 30)** carry the highest default risk at **12.60%**
-- **Low-skill laborers** have the highest occupation default rate at **17.23%** — over 3x that of accountants (4.85%)
-- **Middle Income** clients default more than Low Income clients — a counterintuitive finding worth investigating
-- **Moderate debt burden** clients default at a higher rate than high debt burden clients (8.27% vs 8.08%)
-- Older female clients (Over 60) represent the **lowest risk segment** at 4.55%
-
----
-
-## 🧠 Credit Risk Scoring Model (Simulation)
-
-A rule-based scoring system was created to simulate lending decisions using:
-
-- Age risk
-- Income risk
-- Credit burden (credit-to-income ratio)
-
-Each factor was assigned a risk score (1–3), combined into a total risk score:
-
-- ✅ Low Risk → **Approve**
-- ⚠️ Medium Risk → **Review**
-- ❌ High Risk → **Reject**
-
-This simulates a simplified version of real-world credit decision systems.
-
----
-
-## 💡 Business Value
-
-This analysis demonstrates how financial institutions can:
-
-- Identify high-risk customer segments
-- Improve lending decision strategies
-- Reduce default rates through data-driven insights
-- Target demographic and occupational risk profiles for tailored credit products
-
----
-
-## 📈 What I Learned
-
-- How to clean and explore large datasets (307K rows) using SQL
-- How to structure analytical thinking for business problems
-- How financial variables influence credit risk
-- How to simulate decision-making systems using data logic
-- How to build and format a professional dashboard in Power BI Service
-
----
-
-## 🚀 Future Improvements
-
-- Build a predictive model using machine learning
-- Improve scoring model with weighted variables
-- Perform deeper feature engineering
-- Add time-series analysis on repayment behaviour
-
----
-
-## 📌 Conclusion
-
-This project demonstrates how SQL and Power BI can be used not just for querying data, but for building structured business insights, simulating real-world credit risk decision systems, and communicating findings through professional data visualizations.
+⭐ If you found this repository useful, feel free to star it.
